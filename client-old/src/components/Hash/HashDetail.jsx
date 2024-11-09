@@ -91,7 +91,7 @@ const HashDetail = (props, { theme, setTheme }) => {
 
         try {
             setloading(true);
-            const response = await fetch(`https://api.infosectool.com/api/hash/${hash}`);
+            const response = await fetch(`http://infosectool.com/api/hash/${hash}`);
             const result = await response.json();
             console.log(result);
             setloading(false);
