@@ -1,0 +1,53 @@
+.share-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .url-input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .preview {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .preview-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .preview-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .preview-details p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .share-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .share-button:hover {
+    background-color: #1a91da;
+  }
+  
